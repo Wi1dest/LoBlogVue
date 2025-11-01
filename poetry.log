@@ -1,0 +1,30 @@
+2024-05-07 14:31:00.627 [main] INFO  com.ld.poetry.PoetryApplication - Starting PoetryApplication v0.0.1-SNAPSHOT using Java 21.0.3 on ip-172-31-19-23 with PID 3743 (/home/ubuntu/poetry-0.0.1-SNAPSHOT.jar started by root in /home/ubuntu)
+2024-05-07 14:31:00.632 [main] INFO  com.ld.poetry.PoetryApplication - No active profile set, falling back to default profiles: default
+2024-05-07 14:31:05.179 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+2024-05-07 14:31:05.210 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2024-05-07 14:31:05.210 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.46]
+2024-05-07 14:31:05.344 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-05-07 14:31:05.346 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 4541 ms
+2024-05-07 14:31:05.537 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2024-05-07 14:31:06.267 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2024-05-07 14:31:14.223 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8081 (http) with context path ''
+2024-05-07 14:31:14.266 [main] INFO  com.ld.poetry.PoetryApplication - Started PoetryApplication in 15.546 seconds (JVM running for 17.063)
+2024-05-07 14:31:15.214 [main] INFO  org.tio.server.TioServer - 
+|----------------------------------------------------------------------------------------|
+| t-io site         | https://www.tiocloud.com                                           |
+| t-io on gitee     | https://gitee.com/tywo45/t-io                                      |
+| t-io on github    | https://github.com/tywo45/t-io                                     |
+| t-io version      | 3.7.5.v20211028-RELEASE                                            |
+| ---------------------------------------------------------------------------------------|
+| TioConfig name    | protocol_poetize                                                   |
+| Started at        | 2024-05-07 14:31:15                                                |
+| Listen on         | 0.0.0.0:9324                                                       |
+| Main Class        | org.springframework.boot.loader.JarLauncher                        |
+| Jvm start time    | 17825ms                                                            |
+| Tio start time    | 16ms                                                               |
+| Pid               | 3743                                                               |
+|----------------------------------------------------------------------------------------|
+
+2024-05-07 14:48:22.071 [http-nio-8081-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-05-07 14:48:22.087 [http-nio-8081-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-05-07 14:48:22.270 [http-nio-8081-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 183 ms
