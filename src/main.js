@@ -35,8 +35,16 @@ try {
 
 if (fontUrl) {
   console.log('Setting CSS variable for font:', fontUrl)
-  // 设置 CSS 变量
-  document.documentElement.style.setProperty('--my-global-font-src', `url(${fontUrl})`)
+  // 动态创建 @font-face 规则
+  const style = document.createElement('style')
+  style.textContent = `
+    @font-face {
+      font-family: MyGlobalFont;
+      src: url(${fontUrl});
+      font-display: swap;
+    }
+  `
+  document.head.appendChild(style)
 }
 
 import './assets/css/animation.css'
