@@ -13,7 +13,6 @@ import mavonEditor from 'mavon-editor'
 import './utils/title'
 //引入css
 import './assets/css/animation.css'
-import './assets/css/index.css'
 import './assets/css/tocbot.css'
 import './assets/css/color.css'
 import './assets/css/markdown-highlight.css'
@@ -31,6 +30,17 @@ Vue.prototype.$common = common
 Vue.prototype.$constant = constant
 
 Vue.config.productionTip = false
+
+const fontFile = process.env.VUE_APP_FONT_FILE || 'LXGWWenKaiGBLite.woff2'
+let fontUrl = ''
+try {
+  fontUrl = require(`@/assets/fonts/${fontFile}`)
+} catch (e) {}
+if (fontUrl) {
+  document.documentElement.style.setProperty('--my-global-font-src', `url(${fontUrl})`)
+}
+
+import './assets/css/index.css'
 
 new Vue({
   router,

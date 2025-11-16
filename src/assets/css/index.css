@@ -29,7 +29,7 @@ body {
 
 @font-face {
     font-family: MyGlobalFont;
-    src: url(../fonts/LXGWWenKaiGBLite.woff2);
+    src: var(--my-global-font-src, url(../fonts/LXGWWenKaiGBLite.woff2));
     font-display: swap;
 }
 

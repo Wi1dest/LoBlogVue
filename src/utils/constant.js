@@ -11,7 +11,7 @@ export default {
   // baseURL: location.protocol + "//" + location.hostname + (location.port ? ':' + location.port : '') + "/api",
   // imBaseURL: location.protocol + "//" + location.hostname + (location.port ? ':' + location.port : '') + "/im",
   // baseURL: "https://lozone.qzz.io/api",
-  baseURL: "https://api.19960211.xyz",
+  baseURL: process.env.VUE_APP_BASE_URL || (location.protocol + "//" + location.hostname + (location.port ? ':' + location.port : '') + "/api"),
 
 
 
