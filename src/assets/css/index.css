@@ -9,7 +9,7 @@
 
 body {
     color: var(--fontColor);
-    font-family: var(--globalFont), serif;
+    font-family: var(--globalFont), MyGlobalFont, serif;
     word-break: break-word;
 }
 
