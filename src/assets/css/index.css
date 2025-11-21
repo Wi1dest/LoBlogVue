@@ -1,11 +1,15 @@
 /* 通用css */
+:root {
+    --my-global-font-src: url(../fonts/LXGWWenKaiGBLite.woff2);
+}
+
 * {
     box-sizing: border-box;
 }
 
 body {
     color: var(--fontColor);
-    font-family: var(--globalFont), serif;
+    font-family: MyGlobalFont, var(--globalFont), serif;
     word-break: break-word;
 }
 
@@ -27,11 +31,7 @@ body {
     font-display: swap;
 }
 
-@font-face {
-    font-family: MyGlobalFont;
-    src: url(../fonts/LXGWWenKaiGBLite.woff2);
-    font-display: swap;
-}
+
 
 /* 图片 */
 .background-image {
