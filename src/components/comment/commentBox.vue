@@ -12,7 +12,7 @@
         <div :class="{'emoji-active': showEmoji}" @click="toggleEmojiPicker">
           <i class="el-icon-orange myEmoji"></i>
         </div>
-        <el-checkbox v-model="anonymousComment" style="margin-left: 10px;">我要匿名留言(免登录)</el-checkbox>
+        <!-- <el-checkbox v-model="anonymousComment" style="margin-left: 10px;">我要匿名留言(免登录)</el-checkbox> -->
       </div>
       <div style="display: flex">
         <proButton
